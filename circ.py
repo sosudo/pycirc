@@ -17,4 +17,4 @@ def rcirc(shift:int, bit:str) -> str:
     bit_list.pop(0)
   for i in bit_list[::-1]:
     shift_bit += i
-  return shift_bi
+  return shift_bit
